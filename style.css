@@ -1,0 +1,34 @@
+body{
+    background:linear-gradient(135deg,#ffd6ea,#ffeef7);
+    font-family:'Poppins',sans-serif;
+    text-align:center;
+}
+
+#lock-screen{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+button{
+    background:#ff69b4;
+    color:white;
+    border:none;
+    padding:15px 35px;
+    border-radius:50px;
+    font-size:20px;
+    cursor:pointer;
+    box-shadow:0 0 20px pink;
+    transition:.3s;
+}
+
+button:hover{
+    transform:scale(1.1);
+}
+
+.signature{
+    margin-top:40px;
+    color:#d63384;
+}
